@@ -88,7 +88,7 @@ Expected output:
 
 Local: http://localhost:5173/
 Opening the URL in a browser should display the default Vite + React starter page.
-
+```
 ### Step 3: Project Structure Overview
 ```
 react_toolkit_mvp/
@@ -111,7 +111,7 @@ Managing state using the useState hook
 Updating the UI in response to user interaction
 
 src/App.jsx
-
+```
 import { useState } from "react";
 
 function App() {
@@ -132,7 +132,7 @@ function App() {
 }
 
 export default App;
-
+```
 
 ## Expected Behavior
 On page load, the UI displays “Welcome to React Toolkit 🚀”
@@ -175,7 +175,7 @@ Prompt 3
 AI Helpfulness:
 This helped solidify the relationship between state updates and automatic re-rendering.
 
-Phase 4: Debugging & Iteration
+# Phase 4: Debugging & Iteration
 Prompt 4
 
 “My React app shows a blank screen after editing App.jsx. What are the most common causes and how do I fix them?”
@@ -184,10 +184,12 @@ AI Helpfulness:
 The AI identified common issues such as syntax errors and missing exports, enabling quick resolution.
 
 ### 8. Common Issues & Fixes
-Issue	Cause	Fix
-npm not recognized	Node.js not installed	Install Node.js and restart terminal
-Blank screen	JSX syntax error	Check console and App.jsx
-UI not updating	Incorrect state usage	Use setState properly
+```
+Issue	                         Cause	                                  Fix
+npm not recognized	     Node.js not installed                  	Install Node.js and restart terminal
+Blank screen	           JSX syntax error	                        Check console and App.jsx
+UI not updating	         Incorrect state usage	                  Use setState properly
+```
 9. References
 React Official Documentation: https://react.dev
 
