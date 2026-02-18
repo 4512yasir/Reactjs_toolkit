@@ -90,6 +90,7 @@ Local: http://localhost:5173/
 Opening the URL in a browser should display the default Vite + React starter page.
 
 ### Step 3: Project Structure Overview
+```
 react_toolkit_mvp/
 │
 ├── index.html
@@ -98,6 +99,8 @@ react_toolkit_mvp/
 │   ├── main.jsx
 │   └── App.jsx
 └── README.md
+
+```
 ### 5. Minimal Working Example (MVP)
 This MVP demonstrates:
 
@@ -108,6 +111,7 @@ Managing state using the useState hook
 Updating the UI in response to user interaction
 
 src/App.jsx
+
 import { useState } from "react";
 
 function App() {
@@ -128,6 +132,7 @@ function App() {
 }
 
 export default App;
+
 
 ## Expected Behavior
 On page load, the UI displays “Welcome to React Toolkit 🚀”
